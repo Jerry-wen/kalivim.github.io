@@ -75,7 +75,7 @@ navs:
 side_bar_repo_limit: 5 # Number of repos to show
 
 #comments
-duoshuo_username=kionf
+duoshuo_username: kionf
 
 # For about.html. Fell free to create your own!
 skill_software_keywords: [Shell,Python,Powershell,Django,JavaScript, AJAEX]
