@@ -5,14 +5,12 @@ subtitle: <span class="mega-octicon octicon-repo"></span>&nbsp;&nbsp; To mark us
 menu: Bookmark
 ---
 
-## Java
-- [Dom4j](https://dom4j.github.io/) - Flexible XML framework
-- [Gson](https://github.com/google/gson) - Google Library to support JSON
-- [Xstream](http://x-stream.github.io/index.html) -  Serialize objects to XML and back again
-- [JAXB](https://jaxb.java.net/) - Java Architecture for XML Binding
+## Docker
+- [Docker入门](http://udn.yyuap.com/doc/docker_practice/index.html) - 经典收藏Docker入门及实战项目
+- [Docker译文](http://www.oschina.net/translate/tag/docker) - 最新Docker译文
 
-## Android
-- [Universal-Image-Loader](https://github.com/nostra13/Android-Universal-Image-Loader) - Powerful and flexible library for loading, caching and displaying images
+## Linux
+- [Linux命令大全](http://man.linuxde.net/) - Linux命令仓库
 - [greenDAO](http://greendao-orm.com/) - greenDAO is a light and fast ORM solution that maps objects to SQLite databases
 - [EventBus](http://greenrobot.github.io/EventBus/) - Android optimized event bus that simplifies communication
 - [Transitions-Everywhere](https://github.com/andkulikov/Transitions-Everywhere) - Backport of Android Transitions API for animations
