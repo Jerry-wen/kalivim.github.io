@@ -37,13 +37,17 @@ keywords: Linux, SlatStack
 
 ## 安装
 * CentOS6/Redhat6
-```shell
+
+```bash
 sudo yum install https://repo.saltstack.com/yum/redhat/salt-repo-latest-1.el6.noarch.rpm
 ```
-```shell
+
+```bash
 yum clean all
 ```
+
 * 安装salt-minion, salt-master, 或者其它组件
+
 ```bash
 sudo yum install salt-master			#server端
 sudo yum install salt-minion			#client端
@@ -52,6 +56,7 @@ sudo yum install salt-syndic
 sudo yum install salt-cloud
 sudo yum install salt-api
 ```
+
 ## 配置  :
 
 ### 服务端 `vim /etc/salt/master`
@@ -98,27 +103,32 @@ sudo yum install salt-api
 ## 测试命令 ： 
 
 `测试环境中关闭 iptbles！！`
+
 ```shell
 service iptables stop
 ```
+
 **master端执行**
 
 ```shell
 salt-key -L							
 ```
+
 *查看到minion端ip表示成功*
+
 > Accepted Keys:
 192.168.1.3
 Denied Keys:
 Unaccepted Keys:
 Rejected Keys:
+
 ```shell
 salt '*' test.ping
 ```
+
 > 192.168.1.3:
     True
 
 **下一节我们将讲解salt的实战应用**
-
 
 *Posted by : DY*
