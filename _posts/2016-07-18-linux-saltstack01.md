@@ -56,13 +56,13 @@ sudo yum install salt-syndic
 sudo yum install salt-cloud
 sudo yum install salt-api
 ```
-### 服务端
+**服务端**
 
 ```shell
     sudo yum install salt-master 
 ```
 
-### 客户端
+**客户端**
 
 ```shell
     sudo yum install salt-minion
