@@ -6,7 +6,7 @@ description: Slatstack最新版的安装和使用技巧
 keywords: Linux, SlatStack
 ---
 
-## saltstack基本原理：
+# saltstack基本原理：
 
 > ` SaltStack`采用 C/S模式，server端就是salt的`master`，client端就是`minion`，minion与master之间通过ZeroMQ消息队列通信，**是一个同时对一组服务器进行远程执行命令和状态管理的工具。**
 
@@ -55,6 +55,17 @@ sudo yum install salt-ssh
 sudo yum install salt-syndic
 sudo yum install salt-cloud
 sudo yum install salt-api
+```
+### 服务端
+
+```shell
+    sudo yum install salt-master 
+```
+
+### 客户端
+
+```shell
+    sudo yum install salt-minion
 ```
 
 ## 配置  :
