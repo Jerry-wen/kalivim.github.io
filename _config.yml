@@ -78,6 +78,6 @@ side_bar_repo_limit: 5 # Number of repos to show
 duoshuo_username: kionf
 
 # For about.html. Fell free to create your own!
-skill_software_keywords: [Shell,Python,Powershell,Django,JavaScript, AJAEX]
-skill_like_keywords: [GEEK, Playing Badminton, Tour, Adventure, IT]
-skill_work_keywords: [MySQL, Linux, Operations, Kali Linux,]
+skill_software_keywords: [Shell,Python,Django,JavaScript, AJAEX]
+skill_like_keywords: [GEEK, 羽毛球, 旅游, 冒险, IT]
+skill_work_keywords: [DBA, Linux集群, Kali Linux,]
