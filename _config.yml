@@ -57,15 +57,15 @@ navs:
 
   -
     href: /open-source
-    label: 开源软件
+    label: 码
 
   -
     href: /blog
-    label: 博客
+    label: 文章
 
   -
     href: /bookmark
-    label: 书籍
+    label: 资料
 
   -
     href: /about
